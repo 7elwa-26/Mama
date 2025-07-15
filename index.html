@@ -3,7 +3,7 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>ألطف بنوتة</title>
+    <title>ILY MOM</title>
     <style>
         body {
             background-color: #ffe6f0;
@@ -49,19 +49,19 @@
     </style>
 </head>
 <body>
-    <div>من ألطف بنوتة في البنوتات كلهن؟</div>
+    <div>من أسمح وأحنّ وأشطر وحدة في العالم؟</div>
     <input type="text" id="answer" placeholder="أدخلي إجابتك هنا">
     <button onclick="checkAnswer()">إرسال</button>
     <div id="message" class="message">لؤه! 😾 جربي مرة ثانية.</div>
-    <div id="hint" class="hint">Hint: استخدمي إيموجي تحبّه 👀</div>
+    <div id="hint" class="hint">تلميح: اسم دلعها👀</div>
 
     <script>
         let firstWrong = true;
 
         function checkAnswer() {
             var userAnswer = document.getElementById("answer").value.trim();
-            if (userAnswer === "🍌") {
-                window.location.href = "second_page.html";
+            if (userAnswer === "نونا") {
+                window.location.href = "next.html";
             } else {
                 document.getElementById("message").style.display = "block";
                 if (firstWrong) {
